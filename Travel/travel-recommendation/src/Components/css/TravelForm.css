@@ -1,0 +1,74 @@
+/* General styles for the form */
+.travel-form {
+    width: 100%;
+    max-width: 600px; /* Set a max width for responsiveness */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styles */
+.travel-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Input and select box styles */
+.travel-form input[type="text"],
+.travel-form input[type="number"],
+.travel-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Placeholder text styling */
+.travel-form input::placeholder {
+    color: #aaa;
+}
+
+/* Button styles */
+.travel-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #52d8fa;;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effects for buttons */
+.travel-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Button for getting the location */
+.travel-form button[type="button"] {
+    background-color:#52d8fa;;
+}
+
+/* Hover effect for the location button */
+.travel-form button[type="button"]:hover {
+    background-color: #52d8fa;;
+}
+
+/* Responsive design for smaller devices */
+@media (max-width: 600px) {
+    .travel-form {
+        padding: 15px;
+        margin: 20px auto;
+    }
+}
